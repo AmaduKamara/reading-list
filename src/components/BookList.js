@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 // 1. Import firebase db and firestore functions
 import { db } from "../firebase/config";
 import { doc, deleteDoc } from "firebase/firestore";
