@@ -17,6 +17,8 @@ export default function Signup() {
       toast.error(error);
     }
     signup(email, password);
+    setEmail("");
+    setPassword("");
   };
 
   return (
