@@ -1,5 +1,5 @@
-import { signOut } from "firebase/auth";
 import { auth } from "../firebase/config";
+import { signOut } from "firebase/auth";
 
 export const useLogout = () => {
   const logout = () => {
@@ -12,5 +12,5 @@ export const useLogout = () => {
       });
   };
 
-  return [logout];
+  return { logout };
 };
